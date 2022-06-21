@@ -1,0 +1,82 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(184, 238, 238);
+    background: radial-gradient(circle, rgba(184, 238, 238, 1) 0%, rgba(247, 232, 200, 1) 100%);
+}
+
+.textheader {
+    position: absolute;
+    text-align: center;
+    font-size: 2.2em;
+    padding: 0;
+    color: #136e6e;
+    z-index: 5;
+    top: 1.4em;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.textheader p {
+    margin: auto;
+}
+
+.header {
+    height: 10em;
+    padding: 2em 20em;
+    background-image: url("../imgs/fondo.jpg");
+    background-size: cover;
+    background-position: 50% 19%;
+    box-shadow: 0px 5px 15px -1px rgba(74, 69, 47, 0.5);
+    opacity: 80%;
+    margin-bottom: 2em;
+    z-index: 3;
+}
+
+table {
+    margin: auto;
+}
+
+h1 {
+    margin: auto;
+    font-weight: 400;
+}
+
+td p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    color: rgb(185, 112, 41);
+}
+
+img {
+    width: 20em;
+    transition: 0.3s;
+}
+
+img:hover {
+    box-shadow: 0px 5px 15px -1px rgba(74, 69, 47, 0.5);
+    transform: scale(1.1);
+}
+
+.products {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.products td {
+    width: 50%;
+    padding: 2em;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5em;
+    height: 2.5em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    font-weight: 900;
+}
